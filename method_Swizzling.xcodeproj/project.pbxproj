@@ -15,6 +15,7 @@
 		16FB29F81C5D0D5B008AE5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FB29F61C5D0D5B008AE5D1 /* LaunchScreen.storyboard */; };
 		16FB2A031C5D0D5B008AE5D1 /* method_SwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FB2A021C5D0D5B008AE5D1 /* method_SwizzlingTests.m */; };
 		16FB2A0E1C5D0D5B008AE5D1 /* method_SwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FB2A0D1C5D0D5B008AE5D1 /* method_SwizzlingUITests.m */; };
+		16FB2A1D1C5D0F1C008AE5D1 /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FB2A1C1C5D0F1C008AE5D1 /* UIViewController+swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16FB2A091C5D0D5B008AE5D1 /* method_SwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = method_SwizzlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FB2A0D1C5D0D5B008AE5D1 /* method_SwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = method_SwizzlingUITests.m; sourceTree = "<group>"; };
 		16FB2A0F1C5D0D5B008AE5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FB2A1B1C5D0F1C008AE5D1 /* UIViewController+swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		16FB2A1C1C5D0F1C008AE5D1 /* UIViewController+swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				16FB29F61C5D0D5B008AE5D1 /* LaunchScreen.storyboard */,
 				16FB29F91C5D0D5B008AE5D1 /* Info.plist */,
 				16FB29E81C5D0D5B008AE5D1 /* Supporting Files */,
+				16FB2A1B1C5D0F1C008AE5D1 /* UIViewController+swizzling.h */,
+				16FB2A1C1C5D0F1C008AE5D1 /* UIViewController+swizzling.m */,
 			);
 			path = method_Swizzling;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FB2A1D1C5D0F1C008AE5D1 /* UIViewController+swizzling.m in Sources */,
 				16FB29F01C5D0D5B008AE5D1 /* ViewController.m in Sources */,
 				16FB29ED1C5D0D5B008AE5D1 /* AppDelegate.m in Sources */,
 				16FB29EA1C5D0D5B008AE5D1 /* main.m in Sources */,
